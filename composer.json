@@ -1,0 +1,20 @@
+{
+    "name": "contrask/sprint-as-abstract",
+    "description": "Provides an abstraction for sprint concepts",
+    "type": "library",
+    "keywords": ["project", "sprint"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yosmany Garcia",
+            "email": "yosmanyga@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "contrask/project-as-abstract": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Contrask\\Component\\Sprint": "src/" }
+    }
+}
